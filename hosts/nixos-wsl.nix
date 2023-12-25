@@ -40,6 +40,7 @@
   ];
 
   programs.fish.enable = true;
-
   users.defaultUserShell = pkgs.fish;
+
+  programs.nix-ld.enable = true;
 }
