@@ -15,6 +15,7 @@
       "nixos-wsl" = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
         modules = [
+          ./hosts/generic.nix
           nixos-wsl.nixosModules.wsl
           ./hosts/nixos-wsl.nix
 
