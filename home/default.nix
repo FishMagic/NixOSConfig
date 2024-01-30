@@ -14,6 +14,7 @@
     python311Packages.pip
     python311Packages.virtualenv
     cudaPackages.cudatoolkit
+    gcc
     libgcc
     automake
     ffmpeg
