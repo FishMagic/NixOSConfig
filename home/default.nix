@@ -16,5 +16,6 @@
     cudaPackages.cudatoolkit
     libgcc
     automake
+    ffmpeg
   ];
 }
