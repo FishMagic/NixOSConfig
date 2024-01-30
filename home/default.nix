@@ -10,7 +10,10 @@
   home.packages = with pkgs;
   [
     hyfetch
-    python310
+    python3
+    python3Packages.pip
+    python3Packages.virtualenv
+    cudaPackages.cudatoolkit
     libgcc
     automake
   ];
