@@ -24,7 +24,7 @@
   users.defaultUserShell = pkgs.fish;
 
   environment.sessionVariables = {
-    LD_LIBRARY_PATH = "${pkgs.stdenv.cc.cc.lib}/lib";
+    LD_LIBRARY_PATH = ["${pkgs.stdenv.cc.cc.lib}/lib"];
   };
 
   programs.nix-ld.enable = true;
