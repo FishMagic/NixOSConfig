@@ -10,9 +10,9 @@
   home.packages = with pkgs;
   [
     hyfetch
-    python311
-    python311Packages.pip
-    python311Packages.virtualenv
+    python39
+    python39Packages.pip
+    python39Packages.virtualenv
     cudaPackages.cudatoolkit
     gcc
     libgcc
