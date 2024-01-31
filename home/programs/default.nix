@@ -1,7 +1,7 @@
 {
   imports = [
-    ./git.nix
-    ./fish.nix
+    ./git
+    ./fish
     ./java
   ];
 }
