@@ -3,5 +3,6 @@
     ./git
     ./fish
     ./java
+    ./python
   ];
 }
